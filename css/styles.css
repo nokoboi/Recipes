@@ -1,0 +1,91 @@
+:root{
+    /* Primarios */
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark: hsl(332, 51%, 32%);
+
+    /* Secundarios */
+    --White: hsl(0, 0%, 100%);
+    --Rose: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light: hsl(30, 18%, 87%);
+    --Wenge: hsl(30, 10%, 34%);
+    --DarkCharcoal: hsl(24, 5%, 18%);
+}
+
+body{
+    margin: auto;
+    width: 1440px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace ;
+}
+
+h2{
+    color: var(--Nutmeg);
+}
+
+h1{
+    color: var(--DarkCharcoal);
+}
+
+.cabecera img{
+    border-radius: 1rem;
+    height: 600px;
+    width: 100%;
+}
+
+.preparacion{
+    background-color: var(--Rose);
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+.preparacion h3{
+    color: var(--Dark);
+}
+
+.preparacion ul>li{
+    padding: .5rem;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.ingredientes ul>li{
+    padding: .5rem;
+}
+
+.instrucciones ol>li{
+    padding: .5rem;
+}
+
+hr{
+    color:lightgray
+}
+
+ol li::marker{
+    color:var(--Nutmeg);
+    font-weight: bolder;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+tr td:nth-child(2){
+    color: var(--Dark);
+    font-weight: bolder;
+}
+
+footer{
+    margin-top: 2rem;
+}
